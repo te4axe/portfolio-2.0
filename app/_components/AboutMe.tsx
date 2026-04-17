@@ -54,14 +54,41 @@ const AboutMe = () => {
     return (
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
-                <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
-                </h2>
+                <div className="flex justify-center mb-24 slide-up-and-fade">
+                    <div className="relative group w-fit max-w-full mx-auto overflow-hidden rounded-3xl border border-white/10 bg-black/40 backdrop-blur-sm shadow-2xl transition-all duration-500 hover:border-primary/30 hover:shadow-primary/10">
+                        {/* Decorative background elements - adjusted for flexible size */}
+                        <div className="absolute top-0 left-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-all duration-700"></div>
+                        <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/15 transition-all duration-700"></div>
+                        
+                        {/* The Image Container */}
+                        <div className="relative p-1.5 flex items-center justify-center">
+                            <div className="relative overflow-hidden rounded-[calc(1.5rem-4px)] bg-neutral-900">
+                                <img
+                                    src="/yahya_bouzekri.jpg"
+                                    alt="Yahya Bouzekri"
+                                    className="max-w-full max-h-[70vh] w-auto h-auto grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+                                    onError={(e) => {
+                                        (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop';
+                                    }}
+                                />
+                                
+                                {/* Overlay Content */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-6">
+                                    <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500 w-full">
+                                        <p className="font-anton text-xl md:text-2xl tracking-wider text-white">YAHYA BOUZEKRI</p>
+                                        <p className="text-primary text-xs md:text-sm uppercase tracking-[0.2em] mt-1 italic">Building the future, one pixel at a time</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
-                    This is me.
+                         {/* Border Frame */}
+                         <div className="absolute inset-0 rounded-3xl border border-white/5 pointer-events-none"></div>
+                    </div>
+                </div>
+
+                <p className="pb-3 border-b text-muted-foreground slide-up-and-fade uppercase tracking-widest text-xs font-medium">
+                    About Me
                 </p>
 
                 <div className="grid md:grid-cols-12 mt-9">
