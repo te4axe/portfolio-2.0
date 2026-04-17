@@ -64,7 +64,7 @@ const AboutMe = () => {
                         <div className="relative p-1.5 flex items-center justify-center">
                             <div className="relative overflow-hidden rounded-[calc(1.5rem-4px)] bg-neutral-900">
                                 <img
-                                    src="/yahya_bouzekri.jpg"
+                                    src="/Yahya_Bouzekri.jpg"
                                     alt="Yahya Bouzekri"
                                     className="max-w-full max-h-[70vh] w-auto h-auto grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                                     onError={(e) => {
