@@ -16,7 +16,7 @@ If you like my work, give it a star⭐.
 
 ### TL;DR
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [tajmirul.site](https://tajmirul.site/). Thanks!
+Yes, you can fork this repo. Please give me proper credit by linking back to [Yahya Bouzekri](https://yahyabouzekri.site/). Thanks!
 
 ## 🛠 Installation & Set Up
 
@@ -35,5 +35,4 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 ## Credit
 _This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
 
-## 📄 License
-This project is open source and available under the [MIT License](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE).
+
