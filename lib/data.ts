@@ -112,7 +112,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Flight Booking Web Platform',
         slug: 'flight-booking-system',
-        liveUrl: '', // TODO: dkhel URL dyal live demo ila kayna
+        liveUrl: 'https://flight-booking-kappa-fawn.vercel.app/', // TODO: dkhel URL dyal live demo ila kayna
         year: 2025,
         description: `
       A dynamic flight reservation web application allowing users to search, compare, and book airline tickets online with a smooth and intuitive user experience. <br/><br/>
@@ -136,19 +136,19 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: ['HTML', 'CSS', 'JavaScript'],
         // TODO: bdel had l'image b thumbnail dyal flight booking project (ratio: 16/9 recommended)
-        thumbnail: '/projects/thumbnail/flight-booking.webp',
+        thumbnail: '/projects/thumbnail/flight-booking.png',
         // TODO: bdel had l'image b long thumbnail dyal flight booking (ratio: portrait, 9/16)
-        longThumbnail: '/projects/long/flight-booking.webp',
+        longThumbnail: '/projects/long/flight-booking.png',
         images: [
             // TODO: zid screenshots dyal l'application — homepage, search results, booking page...
-            '/projects/images/flight-booking-1.webp',
-            '/projects/images/flight-booking-2.webp',
+            '/projects/images/flight-booking-1.png',
+            '/projects/images/flight-booking-2.png',
         ],
     },
     {
         title: 'School Management System',
         slug: 'school-management-system-upm',
-        liveUrl: '', // TODO: dkhel URL ila kayna, wella sifet string khawi
+        liveUrl: 'https://awgat.rf.gd/', // TODO: dkhel URL ila kayna, wella sifet string khawi
         year: 2025,
         description: `
       A web-based academic management platform designed for Université Privée de Marrakech, enabling structured communication between administrators, teachers, and students. The system centralizes timetables, exercises, and attendance tracking in one unified platform. <br/><br/>
@@ -174,14 +174,14 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         // TODO: bdel had l'image b thumbnail dyal school management system
-        thumbnail: '/projects/thumbnail/school-management.webp',
+        thumbnail: '/projects/thumbnail/school-management.png',
         // TODO: bdel had l'image b long thumbnail dyal school management system
-        longThumbnail: '/projects/long/school-management.webp',
+        longThumbnail: '/projects/long/school-management.png',
         images: [
             // TODO: zid screenshots — admin dashboard, timetable page, teacher portal, student portal...
-            '/projects/images/school-management-1.webp',
-            '/projects/images/school-management-2.webp',
-            '/projects/images/school-management-3.webp',
+            '/projects/images/school-management-1.png',
+            '/projects/images/school-management-2.png',
+            '/projects/images/school-management-3.png',
         ],
     },
     {
@@ -213,20 +213,20 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: ['React', 'Node.js', 'WebSocket', 'PostgreSQL'],
         // TODO: bdel had l'image b thumbnail dyal Ultra PC system
-        thumbnail: '/projects/thumbnail/ultra-pc.webp',
+        thumbnail: '/projects/thumbnail/ultra-pc.png',
         // TODO: bdel had l'image b long thumbnail dyal Ultra PC system
-        longThumbnail: '/projects/long/ultra-pc.webp',
+        longThumbnail: '/projects/long/ultra-pc.png',
         images: [
             // TODO: zid screenshots — order list, production stages, tracking page, admin dashboard...
-            '/projects/images/ultra-pc-1.webp',
-            '/projects/images/ultra-pc-2.webp',
-            '/projects/images/ultra-pc-3.webp',
+            '/projects/images/ultra-pc-1.png',
+            '/projects/images/ultra-pc-2.png',
+            '/projects/images/ultra-pc-3.png',
         ],
     },
     {
         title: 'Storage Company Landing Page',
         slug: 'storage-company-landing',
-        liveUrl: '', // TODO: dkhel URL dyal landing page
+        liveUrl: 'https://selfstockage.ct.ws/', // TODO: dkhel URL dyal landing page
         year: 2025,
         description: `
       A dynamic landing page designed for a storage company, showcasing services, pricing, and customer benefits. Built to improve online presence and client engagement. <br/><br/>
@@ -248,19 +248,19 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: ['HTML', 'CSS', 'JavaScript'],
         // TODO: bdel had l'image b thumbnail dyal storage landing page
-        thumbnail: '/projects/thumbnail/storage-landing.webp',
+        thumbnail: '/projects/thumbnail/storage-landing.png',
         // TODO: bdel had l'image b long thumbnail dyal storage landing page
-        longThumbnail: '/projects/long/storage-landing.webp',
+        longThumbnail: '/projects/long/storage-landing.png',
         images: [
             // TODO: zid screenshots dyal landing page — hero section, services, pricing...
-            '/projects/images/storage-landing-1.webp',
-            '/projects/images/storage-landing-2.webp',
+            '/projects/images/storage-landing-1.png',
+            '/projects/images/storage-landing-2.png',
         ],
     },
     {
         title: 'Personal Developer Portfolio',
         slug: 'portfolio-2-0',
-        liveUrl: '', // TODO: dkhel URL dyal portfolio dyalk
+        liveUrl: 'https://www.yahyabouzekri.site/', // TODO: dkhel URL dyal portfolio dyalk
         year: 2026,
         description: `
       A modern personal portfolio website showcasing my projects, skills, and professional experience as an IT student and full-stack developer. Built with a focus on performance, animation, and clean UI/UX. <br/><br/>
@@ -284,14 +284,14 @@ export const PROJECTS: IProject[] = [
       `,
         techStack: ['React', 'Next.js', 'Tailwind CSS'],
         // TODO: bdel had l'image b thumbnail dyal portfolio (screenshot dyal homepage)
-        thumbnail: '/projects/thumbnail/portfolio.webp',
+        thumbnail: '/projects/thumbnail/portfolio.png',
         // TODO: bdel had l'image b long thumbnail dyal portfolio
-        longThumbnail: '/projects/long/portfolio.webp',
+        longThumbnail: '/projects/long/portfolio.png',
         images: [
             // TODO: zid screenshots dyal portfolio — homepage, projects section, about, contact...
-            '/projects/images/portfolio-1.webp',
-            '/projects/images/portfolio-2.webp',
-            '/projects/images/portfolio-3.webp',
+            '/projects/images/portfolio-1.png',
+            '/projects/images/portfolio-2.png',
+            '/projects/images/portfolio-3.png',
         ],
     },
 ];
